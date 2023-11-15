@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding: 0;
+}
+ 
+ /* Carrousel */
+
+ .divfijo{
+    width: 99%;
+    position:absolute;
+    padding: 0 5px;
+    top: 45%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+div img{
+    margin-bottom: 30px;
+}
+
+.left,.right{
+    font-size: 35px;
+    color:rgb(76, 73, 73);
+    width: 50px;
+    background-color:rgb(211, 203, 203);
+    border-radius: 50%;
+    border: none;
+    padding-left: 6px;
+    cursor: pointer;
+}
+
+
+
+/*ejercicio 2  */
+ .cambio-chico{ 
+    font-size:30px;
+}
+.cambio-grande{
+    font-size: 80px;
+    
+}
+
+.btn-dos{
+    background-color: beige;
+}
+
+/* corresponde a la forma dos que intente------- */
+
+.cambio-tamanio{
+    font-size: 80px;
+}
+
+
+/* Ejercicio 3 */
+
+.tarjetas-desplegables{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    }
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.elemento-oculto, .elemento-ocultoB, .elemento-ocultoC{
+    display:none;
+};
+
+.visible, .visibleB, .visibleC{
+    display: inline;
+}
+
+h2{
+    margin-top: 10px;
+}
+
+ul{
+    margin-top: 10px ;
+    margin-bottom: 40px;
+}
+ul li{
+    font-size: 20px;
+    list-style: none;
+}
+
+ul li a{
+    color: black;
+    
+}
+
+.btn{
+    margin-top: 10px;
+    background-color: rgb(144, 201, 201);
+    border: none;
+    color: black;
+    font-size: 15px;
+    width: 80px;
+    cursor: pointer;
+}
